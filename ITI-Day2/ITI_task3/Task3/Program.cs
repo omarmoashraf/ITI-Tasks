@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int Max = -1;
+            int Max = int.MinValue;
             int[] Degrees = new int[n];
             for (int i = 0; i < Degrees.Length; i++)
             {
