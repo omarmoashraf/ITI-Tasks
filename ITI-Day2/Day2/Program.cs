@@ -24,7 +24,7 @@
             Console.WriteLine("Enter ID: ");
             int ID = int.Parse(Console.ReadLine());
             ID = (ID > 0) ? ID : 0;
-
+            
 
             Console.WriteLine("Enter salary: ");
             int salary = int.Parse(Console.ReadLine());
